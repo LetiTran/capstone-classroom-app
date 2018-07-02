@@ -3,7 +3,7 @@ The second deliverable for the capstone is your product plan.
 
 ## Product Plan Components
 1. __Personal Learning Goals__:
-    - GitHUb API
+    - GitHub API
     - Using Google Calendar API to display calendar AND pull/filter information for lists (like for the activities for day and week)
     - How Mock API works with Postman
     - Redux and managing state with it
@@ -14,19 +14,19 @@ The second deliverable for the capstone is your product plan.
     - GitHub pages
     - Working with a specific client
 
-1. __Problem Statement__: 
+1. __Problem Statement__:
 
     - Ada instructors, staff, and students do not have a centralized classroom app that meets all of their needs. They would benefit from an web-based application that helps them view assignment submissions, provides a clear layout of lectures for that day/week, and supports other features (such as a centralized hub for documents and non-lecture resources like Charles's reviews and internship information). In addition, thorough testing is needed to ensure the most reliable site as possible for users.
     - Ultimately, the goal is of this capstone project is to produce a working classroom management application that provides a solid foundation for future versions of the app.
 
-1. __Market Research__: 
+1. __Market Research__:
     - Google Classroom, Canvas, BlackBoard, and Schoology are different learning management systems (LMS) and classroom management systems (CMS). These do address a number of needs Ada has. For example, Canvas allow instructors to restrict access to the class's site to invited users, prohibits students from accessing instructors-only areas, manages assignments, allows assigning of groups, tracks attendance, has a calendar, and provides some basic information about grade trends. Most of the other previously-provided list of apps have similar functionality.
-    - But these apps do not meet all of Ada's needs. First, the program's use of Github RP for assignments and grading does not work well with these traditional classroom apps. Ada needs an app that is smoothly works with the GitHub API, integrating much of the information it provides throughout the site (such as for the graphs). Secondly, having their own application allows them to have much more flexibility as needs change. Finally, Ada has a tight operating budget and most CMS apps have fees to access all features. The free Google Classroom, which is arguably the best free CMS, is very limited in features and mainly acts as just an centralized access point of other Google products, such as Drive.
+    - But these apps do not meet all of Ada's needs. First, the program's use of Github RP for assignments and grading does not work well with these traditional classroom apps. Ada needs an app that is smoothly works with the GitHub API, integrating much of the information it provides throughout the site (such as for the graphs). Secondly, having their own application allows them to have greater flexibility as needs change. Finally, Ada has a tight operating budget, and most CMS apps have fees to access all features. The free Google Classroom, which is arguably the best free CMS, is very limited in features and mainly acts as just an centralized access point of other Google products, such as Drive.
 
 1. __User Personas__:
     - **Students**
       - Wants
-        - Access to feedback in one place
+        - Organized access to feedback in one place
         - View feedback on group projects, regardless of which group member submits the pull request
         - View progress over time/by unit (graphs)
         - View calendar
@@ -41,7 +41,7 @@ The second deliverable for the capstone is your product plan.
             - View calendar
             - Assign people to groups
             - Manage student permissions/invites and assigning students to cohorts, and invites
-            - Ideally would have other information (attendance, document hub, Panopto, etc)
+            - Ideally would have other information (attendance, document hub, Panopto, etc) - **not MVP features**
        - Considerations
          - May be staff (Charles, Alexandra, etc) and want their own pages - **not a MVP feature**
 
@@ -67,7 +67,7 @@ The second deliverable for the capstone is your product plan.
         - GitHub page
 
 1. __Wireframes__:
-    - https://balsamiq.cloud/sjwmnb1/py1s3xn
+    - [Balsamiq](https://balsamiq.cloud/sjwmnb1/py1s3xn)
 
 1. __ERD__:  
     - [LucidChart](https://www.lucidchart.com/invitations/accept/ece35dfa-5a11-450c-8dcd-d3754041e817)
