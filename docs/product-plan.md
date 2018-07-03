@@ -1,7 +1,9 @@
 # Capstone Product Plan
+
 The second deliverable for the capstone is your product plan.
 
 ## Product Plan Components
+
 1. __Personal Learning Goals__:
     - GitHub API
     - Using Google Calendar API to display calendar AND pull/filter information for lists (like for the activities for day and week)
@@ -33,8 +35,8 @@ The second deliverable for the capstone is your product plan.
         - Ideally would have other information (attendance, document hub, Panopto, etc) - **not MVP features**
       - Considerations
         - May belong to more than one cohort
-     - **Instructors**
-       - Wants
+    - **Instructors**
+        - Wants
             - Access to feedback in one place
             - View what they've graded and what they need to grade
             - View grades over time/by unit and be able to filter by cohort, class, and student (graphs)
@@ -42,8 +44,8 @@ The second deliverable for the capstone is your product plan.
             - Assign people to groups
             - Manage student permissions/invites and assigning students to cohorts, and invites
             - Ideally would have other information (attendance, document hub, Panopto, etc) - **not MVP features**
-       - Considerations
-         - May be staff (Charles, Alexandra, etc) and want their own pages - **not a MVP feature**
+        - Considerations
+            - May be staff (Charles, Alexandra, etc) and want their own pages - **not a MVP feature**
 
 1. __Trello Board__:
     - [Trello Board](https://trello.com/b/MTc8B8yP)
@@ -73,4 +75,5 @@ The second deliverable for the capstone is your product plan.
     - [LucidChart](https://www.lucidchart.com/invitations/accept/ece35dfa-5a11-450c-8dcd-d3754041e817)
 
 ## Format
+
 Since the Product Plan is part of your final deliverable and should be included in your repository, it would be easiest to do this initial draft in a markdown format for easy transferability to GitHub.
