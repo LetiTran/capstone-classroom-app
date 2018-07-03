@@ -5,6 +5,11 @@ A classroom app for Ada Developers Academy to be used by its staff, instructors 
 
 ---
 
+[Front-end:](https://github.com/LetiTran/lovelace-front-end)
+
+[Back-end:](https://github.com/LetiTran/lovelace-back-end)
+
+---
 
 [Wireframes](https://balsamiq.cloud/sjwmnb1/py1s3xn)
 
