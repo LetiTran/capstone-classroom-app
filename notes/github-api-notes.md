@@ -1,19 +1,21 @@
-## User Info
+## Random Notes
+- [OAuth](https://developer.github.com/v3/#authentication)
+- [Pagination](https://developer.github.com/v3/#pagination)
+    - Requests that return multiple items will be paginated to 30 items by default. You can specify further pages with the ?page parameter. For some resources, you can also set a custom page size up to 100 with the ?per_page parameter. Note that for technical reasons not all endpoints respect the ?per_page parameter, see events for example.
+    - Note that page numbering is 1-based and that omitting the ?page parameter will return the first page.
+    - [Traversing with Pagination Guide](https://developer.github.com/v3/guides/traversing-with-pagination/)
 
-### GET User's Info by Username
+## GET User's Info by Username
 
 **Summary**: Gets user's info 
 
-**Required**  
-username
+**Required**: username
 
-**Call**  
-GET `https://api.github.com/users/USERNAME` or GET `https://api.github.com/users/USERNAME?-H=Accept:%20application/vnd.github.v3.full+json`  
+**Call**: GET `https://api.github.com/users/USERNAME` or GET `https://api.github.com/users/USERNAME?-H=Accept:%20application/vnd.github.v3.full+json`  
 
-**Details**  
-Returns a JSON hash, with Strings as keys.
+**Details**: Returns a JSON hash, with Strings as keys.
 
-**Example**  
+**Example**:  
 ```JSON
 {
     "login": "USERNAME",
@@ -50,20 +52,15 @@ Returns a JSON hash, with Strings as keys.
 }
 ```
 
-### GET Repo Details by Username
+## GET Repo Details by Username
 
-**Summary**  
-Gets detailed representation of an individual repository
+**Summary**: Gets detailed representation of an individual repository
 
-**Required**  
-username  
-repo name
+**Required**: username and repo name
 
-**Call**  
-GET `https://api.github.com/repos/octokit/REPONAME.rb?-H=Accept:%20application/vnd.github.v3.full+json`  
+**Call**: GET `https://api.github.com/repos/octokit/REPONAME.rb?-H=Accept:%20application/vnd.github.v3.full+json`  
 
-**Details**  
-Returns a JSON hash, with Strings as keys.
+**Details**: returns a JSON hash, with Strings as keys.
 
 **Example** 
 ````JSON
@@ -190,22 +187,15 @@ Returns a JSON hash, with Strings as keys.
 }
 ````
 
-## Organization Info
+## GET Organization by Organization's Username 
 
-### GET Organization by Organization's Username 
+**Summary**: Gets summary representation of each repos
 
-**Summary**  
-Gets summary representation of each repos
+**Call**: GET `https://api.github.com/orgs/Ada-Developers-Academy/repos?-H=Accept:%20application/vnd.github.v3.full+json`
 
-**Call**  
-GET `https://api.github.com/orgs/Ada-Developers-Academy/repos?-H=Accept:%20application/vnd.github.v3.full+json`
-
-**Details**  
-Returns an array of JSON hashes, with Strings as keys.
+**Details**: Returns an array of JSON hashes, with Strings as keys.
 
 **Example** 
-
-
 ```JSON
 [
     {
@@ -311,4 +301,4 @@ Returns an array of JSON hashes, with Strings as keys.
     }
     // additional repos
 ]
-```
+````
